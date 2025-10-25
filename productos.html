@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Mogetta Electricidad</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link rel="icon" href="Img/LogoFavicon32x32.png" type="image/png">
+  <link href="Img/LogoFavicon192x192.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/vista.css">
+</head>
+
+<body class="portfolio-details-page">
+  <div class="wrapper">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Mogetta</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="index.html#sobreNosotros">Sobre Nosotros</a></li>
+          <li><a href="index.html#equipo">Nuestro Equipo</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="index.html#galeria-productos">Galería</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+          <li><button class="btn btn-primary">Ingresar</button></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+<section id="productos" class="section light-background pb-5">
+  <div class="container section-title-productos" data-aos="fade-up">
+    <!-- Título de sección -->
+    <div class="section-title-productos text-center mb-4">
+      <h2>Productos</h2>
+      <p>Conocé nuestra variedad de productos disponibles</p>
+    </div>
+
+    <!-- Botones de categorías -->
+    <div id="categoriasBtns" class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+      <button class="category-btn active">
+        <i class="bi bi-grid-fill"></i> Todo
+      </button>
+      <button class="category-btn">
+        <i class="bi bi-lightbulb-fill"></i> Iluminación
+      </button>
+      <button class="category-btn">
+        <i class="bi bi-plug-fill"></i> Cables
+      </button>
+      <button class="category-btn">
+        <i class="bi bi-tools"></i> Herramientas
+      </button>
+      <button class="category-btn">
+        <i class="bi bi-toggle-on"></i> Interruptores
+      </button>
+    </div>
+
+    <!-- Grid de productos -->
+    <div class="row gy-4">
+      <!-- Producto 1 -->
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="product-card h-100 shadow-sm rounded-3" data-categoria="cables" data-aos="fade-up">
+          <img src="./Img/producto1.jpg" class="img-fluid rounded-top" alt="Cable">
+          <div class="p-3">
+            <h5 class="card-title">Cable THW 2.5mm</h5>
+            <p class="card-text small">Cable unipolar THW-LS 2.5mm², 600V, 90°C. Ideal para instalaciones interiores.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="product-card h-100 shadow-sm rounded-3 position-relative" data-categoria="iluminación" data-aos="fade-up">
+          <img src="https://placehold.co/300x200" class="img-fluid rounded-top" alt="Foco LED">
+          <div class="p-3">
+            <h5 class="card-title">Foco LED 12W E27</h5>
+            <p class="card-text small">Equivalente a 100W incandescente. 1055 lúmenes, 3000K. Vida útil 25,000 horas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="product-card h-100 shadow-sm rounded-3" data-categoria="interruptores" data-aos="fade-up" >
+          <img src="https://placehold.co/300x200" class="img-fluid rounded-top" alt="Interruptor">
+          <div class="p-3">
+            <h5 class="card-title">Interruptor Simple Blanco</h5>
+            <p class="card-text small">Interruptor simple de 10AX 250V~. Marca reconocida, fácil instalación.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="product-card h-100 shadow-sm rounded-3" data-categoria="herramientas" data-aos="fade-up" >
+          <img src="https://placehold.co/300x200" class="img-fluid rounded-top" alt="Alicates">
+          <div class="p-3">
+            <h5 class="card-title">Alicates Universales 8"</h5>
+            <p class="card-text small">Alicates con mangos ergonómicos aislados para seguridad.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="product-card h-100 shadow-sm rounded-3" data-categoria="herramientas" data-aos="fade-up">
+          <img src="https://placehold.co/300x200" class="img-fluid rounded-top" alt="Alicates">
+          <div class="p-3">
+            <h5 class="card-title">Alicates Universales 8"</h5>
+            <p class="card-text small">Alicates con mangos ergonómicos aislados para seguridad.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="product-card h-100 shadow-sm rounded-3" data-categoria="herramientas" data-aos="fade-up">
+          <img src="https://placehold.co/300x200" class="img-fluid rounded-top" alt="Alicates">
+          <div class="p-3">
+            <h5 class="card-title">Alicates Universales 8"</h5>
+            <p class="card-text small">Alicates con mangos ergonómicos aislados para seguridad.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+
+
+<footer id="footer-productos" class="footer d-flex align-items-center">
+  <div class="container">
+    <p>&copy; Copyright Logui Soft. Todos los derechos reservados <br>
+      MORTEROS, CÓRDOBA, ARGENTINA 
+    </p>
+  </div>
+</footer>
+</div>
+
+
+
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <!-- <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/productos.js"></script>
+
+</body>
+
+</html>
