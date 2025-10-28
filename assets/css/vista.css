@@ -267,7 +267,7 @@ li {
   font-size: 1.06rem;        
 }
 #equipo {
-  background-image: url("/Img/Instalaciones4.jpg");
+  background-image: url("/Imagenes/Mesaytele.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -605,7 +605,7 @@ li {
 .gmail { color: #db4437; }
 /* Fondo de contacto */
 #contacto {
-  background-image: url("/Img/seccionContacto.jpg");
+  background-image: url("/Imagenes/localConpleto.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
