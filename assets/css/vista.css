@@ -360,7 +360,7 @@ li {
   transition: transform 700ms ease, opacity 700ms ease, filter 700ms ease;
   will-change: transform, opacity, filter;
   cursor: pointer;
-  user-select: none;
+  /* user-select: none; */
   box-sizing: border-box;
 }
 .galeria-card img {
@@ -410,8 +410,8 @@ li {
 }
 .galeria-visor img {
   display: block;
-  width: 70%;
-  height: 70%;
+  width: 75%;
+  height: 600px;
   object-fit: cover;
   max-width: none;
   max-height: none;
