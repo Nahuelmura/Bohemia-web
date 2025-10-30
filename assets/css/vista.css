@@ -3,15 +3,15 @@
   --background-color: #021433;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #4668a2;
+  --surface-color: #131314;
   --contrast-color: #ffffff;
 }
 
 :root {
   --background-color: #ffffff;
   --default-color: #444444;
-  --heading-color: #37517e;
-  --accent-color: #47b2e4e2;
+  --heading-color: #434f57; 
+  --accent-color: #606263e2;
   --surface-color: #ffffff;
   --contrast-color: #ffffff;
 }
@@ -165,7 +165,7 @@ main {
   font-size: 2rem;          
   font-weight: 700;
   margin-bottom: 20px;   
-  padding-bottom: 1.25rem;  /* igual que .section-title-equipo h2 */
+  padding-bottom: 1.25rem;  
   text-transform: uppercase;
   text-align: center;
   position: relative;
@@ -193,6 +193,19 @@ main {
   right: 0;
   bottom: 0;
   margin: auto;
+}
+
+.section-title h3 {
+  all: unset;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-title h3::before,
+.section-title h3::after {
+  content: none !important;       /* elimina subrayado */
+  display: none !important;       /* seguridad extra */
 }
 .texto-sobre-nosotros,
 #contenidoExtendido {
@@ -687,6 +700,7 @@ li {
   bottom: 0;
   margin: auto;
 }
+
 section#contacto {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
@@ -891,6 +905,14 @@ section#contacto {
     padding: 6px;
   }
 }
+
+.subtitulo {
+    font-size: 1.2rem !important;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+    padding-bottom: 10px !important;
+    text-align: center;
+  }
 /* ========== FIN SOBRE NOSOTROS RESPONSIVE ========== */
 
 
