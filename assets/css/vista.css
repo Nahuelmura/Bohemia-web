@@ -154,8 +154,14 @@ main {
 
 /* ========== Sección Sobre Nosotros ========== */
 #sobreNosotros {
-  padding-top: 40px;   
-  padding-bottom: 40px; 
+  text-align: justify;
+  font-size: 1.06rem;        
+  line-height: 1.9;
+  padding-left: 19px;      
+  padding-right: 19px;
+  margin-bottom: 0 !important;
+  padding-top: 50px;   
+  padding-bottom: 50px; 
   min-height: 90vh !important;
   height: auto !important;
   overflow: visible !important;
@@ -163,9 +169,7 @@ main {
 }
 .section-title-nosotros h2 {
   font-size: 2rem;          
-  font-weight: 700;
-  margin-bottom: 20px;   
-  padding-bottom: 1.25rem;  
+  font-weight: 700;  
   text-transform: uppercase;
   text-align: center;
   position: relative;
@@ -228,6 +232,10 @@ main {
 #contenidoExtendido {
   height: auto !important;
   overflow: visible !important;
+}
+
+.col-lg-6{
+  padding: 0 40px;
 }
 /* ========== Fin Sección Sobre Nosotros ========== */
 
@@ -324,7 +332,7 @@ li {
 
 
 /* ==========  Sección Galeria Visual ========== */
-#galeria-productos {
+  #galeria-productos {
   min-height: 90vh !important;
   padding-top: 0 !important;
   margin-top: 0 !important;
@@ -1138,7 +1146,9 @@ section#contacto {
 
   .section-title h2 {
     font-size: 1.6rem;
-    margin: 12px 0;
+    margin: 40px;
+    padding-top: 40px !important;
+
   }
 
   .section-title p {
@@ -1508,3 +1518,89 @@ section#contacto {
 }
 }
 /* ========== SECCION PRODUCTO RESPONSIVE ========== */
+
+
+
+
+/* ========== Sección Nuestro Equipo ========== */
+
+.equipo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  padding: 20px;
+}
+
+/* Tarjeta individual */
+.miembro-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(135deg, #424243, #0b0a0b);
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  gap: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+  height: 250px; /* 🔹 Altura fija */
+  padding: 20px;
+}
+
+.miembro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Imagen circular */
+.miembro-foto {
+  flex-shrink: 0;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #fff;
+}
+
+.miembro-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Información */
+.miembro-info {
+  flex: 1;
+}
+
+.miembro-nombre {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.miembro-rol {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+/* 📱 Responsivo */
+@media (max-width: 600px) {
+  .miembro-card {
+    flex-direction: column;
+    text-align: center;
+    height: auto; /* en móviles, permite que crezca */
+  }
+
+  .miembro-foto {
+    width: 100px;
+    height: 100px;
+  }
+
+  .miembro-info {
+    margin-top: 10px;
+  }
+}
