@@ -1205,7 +1205,7 @@ section#contacto {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 12px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(4px);
+    /* backdrop-filter: blur(4px); */
     width: 100%;
     height: auto;
     margin: 0 !important;
