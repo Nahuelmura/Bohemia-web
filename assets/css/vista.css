@@ -816,24 +816,99 @@ section#contacto {
 
 /* ========== SOBRE NOSOTROS RESPONSIVE  ========== */
 
+/* ========== SOBRE NOSOTROS RESPONSIVE  ========== */
+
+/* ----- ESTILO BASE (escritorio grande) ----- */
 .texto-sobre-nosotros,
 #contenidoExtendido {
-  padding: 0 24px; 
-  box-sizing: border-box; 
+  font-size: 1.05rem;
+  line-height: 1.7;
+  padding: 0 32px;
+  /* box-sizing: border-box;
+  text-align: justify; */
+font-weight: bold;
+
+
 }
+
 #sobreNosotros {
+  padding-top: 70px;
+  padding-bottom: 70px;
   text-align: justify !important;
 }
-@media (max-width: 576px) {
+
+
+#sobreNosotros h2 {
+  font-size: 28px;
+}
+
+#sobreNosotros h3 {
+  font-size: 20px;
+}
+
+.read-more {
+  font-size: 0.9rem;
+  padding: 8px 12px;
+}
+
+/* ----- ≤ 1240px (pantallas medianas / notebooks) ----- */
+@media (max-width: 1240px) {
+
   .texto-sobre-nosotros,
   #contenidoExtendido {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 28px;
+  }
+
+  #sobreNosotros {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  #sobreNosotros h2 {
+    font-size: 26px;
+  }
+}
+
+/* ----- ≤ 768px (tablets o móviles grandes) ----- */
+@media (max-width: 768px) {
+
+  .texto-sobre-nosotros,
+  #contenidoExtendido {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    padding: 0 20px;
+  }
+
+  #sobreNosotros {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #sobreNosotros h2 {
+    font-size: 22px;
+  }
+
+  .read-more {
+    font-size: 0.85rem;
+    padding: 6px;
+  }
+}
+
+/* ----- ≤ 568px (móviles chicos) ----- */
+@media (max-width: 568px) {
+
+  .texto-sobre-nosotros,
+  #contenidoExtendido {
+    font-size: 0.9rem !important;
     line-height: 1.45;
     padding: 0 16px;
-    text-align: justify;
     margin-left: 0 !important;
-    margin-right: 0  !important;
+    margin-right: 0 !important;
+    color: ;
   }
+
   .section-title-nosotros h2 {
     font-size: 1.4rem !important;
     margin-top: 10px !important;
@@ -848,87 +923,21 @@ section#contacto {
   }
 
   .read-more {
-    font-size: 0.85rem;
-    padding: 6px;
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 768px) {
-  .texto-sobre-nosotros,
-  #contenidoExtendido {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    padding: 0 20px;
-  }
-
-  #sobreNosotros h2 {
-    font-size: 24px;
-  }
-
-  #sobreNosotros {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-}
-@media (max-width: 1024px) {
-  .texto-sobre-nosotros,
-  #contenidoExtendido {
-    font-size: 1rem;
-    line-height: 1.6;
-    padding: 0 28px;
-  }
-
-  #contenidoExtendido {
-    margin-top: 5px !important;
-  }
-
-  #sobreNosotros h2 {
-    font-size: 26px;            
-  }
-
-  #sobreNosotros {
-    padding-top: 58px;
-    padding-bottom: 58px;
-  }
-}
-@media (max-width: 1440px) {
-  #contenidoExtendido {
-    max-width: 95% !important;
-    margin: 5px auto !important;
-    padding: 0 32px !important;
-    box-sizing: border-box !important;
-  }
-
-  .texto-sobre-nosotros,
-  #contenidoExtendido {
-    font-size: 1.05rem;
-    line-height: 1.7;
-  }
-
-  #sobreNosotros h2 {
-    font-size: 28px;            
-  }
-
-  #sobreNosotros {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
-
-  .read-more {
-    font-size: 0.85rem;
-    padding: 6px;
+    font-size: 0.8rem;
+    padding: 5px;
   }
 }
 
+/* ----- Subtítulo ----- */
 .subtitulo {
-    font-size: 1.2rem !important;
-    margin-top: 10px !important;
-    margin-bottom: 15px !important;
-    padding-bottom: 10px !important;
-    text-align: center;
-  }
-/* ========== FIN SOBRE NOSOTROS RESPONSIVE ========== */
+  font-size: 1.2rem !important;
+  margin-top: 10px !important;
+  margin-bottom: 15px !important;
+  padding-bottom: 10px !important;
+  text-align: center;
+}
 
+/* ========== FIN SOBRE NOSOTROS RESPONSIVE ========== */
 
 
 
