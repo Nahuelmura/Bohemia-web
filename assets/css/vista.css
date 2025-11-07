@@ -1227,7 +1227,7 @@ font-weight: bold;
   .address-container { order: 3; }
 
   #contacto {
-    background-image: url("/Img/seccionContacto.jpg");
+  background-image: url("/Imagenes/localConpleto.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
