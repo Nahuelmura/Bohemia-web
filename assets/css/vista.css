@@ -906,7 +906,7 @@ font-weight: bold;
     padding: 0 16px;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    color: ;
+    
   }
 
   .section-title-nosotros h2 {
@@ -1617,5 +1617,95 @@ font-weight: bold;
 
   .miembro-info {
     margin-top: 10px;
+  }
+}
+
+
+
+/* ========== Fin Sección Nuestro Equipo ========== */
+
+
+/* ========== footer ========== */
+
+/* REMOVE THIS, USE YOUR OWN  */
+
+.footer {
+  width: 100%;
+  background-color: #070617;
+  color: #fff;
+  padding: 40px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contain {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Columna de enlaces */
+.footer-links {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-links .sitename {
+  font-size: 1.4rem;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #fff;
+}
+
+/* Sección central del footer */
+.footer-center {
+  text-align: center;
+}
+
+.footer-center h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+.footer-center p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .footer-links ul li {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .footer-center h1 {
+    font-size: 1.6rem;
   }
 }

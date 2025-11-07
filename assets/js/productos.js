@@ -27,3 +27,5 @@ categoriasBtns.addEventListener("click", function(e) {
     });
   }
 });
+
+
