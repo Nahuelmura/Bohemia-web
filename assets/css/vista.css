@@ -632,7 +632,7 @@ li {
 .gmail { color: #db4437; }
 /* Fondo de contacto */
 #contacto {
-  background-image: url("../css/Imagenes/localConpleto.jpeg");
+  background-image: url("../css/localConpleto.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
