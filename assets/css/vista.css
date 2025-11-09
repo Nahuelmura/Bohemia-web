@@ -632,12 +632,12 @@ li {
 .gmail { color: #db4437; }
 /* Fondo de contacto */
 #contacto {
-background-image: url("../../imagenes/imagen.jpg");
+  background-image: url("/Imagenes/zapa1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 20px 10px 0 !important;
-  height: 500px;
+
 }
 /* Dirección */
 .address-container {
