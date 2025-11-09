@@ -637,6 +637,7 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   padding: 20px 10px 0 !important;
+  height: 500px;
 }
 /* Dirección */
 .address-container {
